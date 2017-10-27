@@ -2,5 +2,8 @@
   <li ng-repeat='comment in $ctrl.comments'>
     <img gravatar-src-once="comment.email" />
     <p>{{ comment.comment }}</p>
+
+    <jk-rating-stars max-rating="5" rating="comment.rating" on-rating="$ctrl.onRating(comment)" >
+    </jk-rating-stars>
   </li>
-</ul>
+</ul

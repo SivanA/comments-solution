@@ -17,6 +17,7 @@
   "dependencies": {
     "angular": "1.6.2",
     "angular-gravatar": "0.4.2",
+    "angular-jk-rating-stars": "^1.0.8",
     "bluebird": "3.5.0",
     "body-parser": "1.16.1",
     "express": "4.14.1",

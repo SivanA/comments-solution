@@ -5,7 +5,7 @@ const component = {
 const APP_NAME = 'bigpanda.exercise';
 
 const bpExerciseApp = angular.module(APP_NAME, [
-  'ui.gravatar'
+  'ui.gravatar', 'jkAngularRatingStars'
 ]);
 
 bpExerciseApp.component('bpExercise', component)

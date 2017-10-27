@@ -31,3 +31,7 @@ main {
   flex: 1;
   flex-direction: column;
 }
+
+li p {
+  max-width: calc(100% - 285px);
+}
